@@ -1,0 +1,710 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  overflow: visible;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+#artis-logo-chir-estetica {
+  width: 6em;
+}
+
+.unordered-li-navbar-chir-estetica {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.unordered-li-navbar-chir-estetica li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.links-decorations-chir-estetica {
+  text-decoration: none;
+  color: #3a4048;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.links-decorations-chir-estetica:hover {
+  color: #a17b25;
+}
+
+.links-decorations-chir-estetica:focus-visible {
+  color: #a17b25;
+  font-weight: 800;
+}
+
+.media-queries-navbar {
+  display: none;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+/* First Section Chirurgie Estetica */
+
+.first-section-chir-estetica {
+  padding-top: 10em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-side-first-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side-first-sec-h1 {
+  color: #3a4048;
+  font-family: "Kalam", cursive;
+}
+
+.left-side-first-sec-p {
+  color: #a17b25;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.styles-image-first-sec {
+  width: 100%;
+  border-radius: 0.3em;
+}
+
+.right-side-first-sec {
+  position: relative;
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.left-side-first-sec-h1 {
+  width: 100%;
+}
+
+.left-side-first-sec-p {
+  width: 100%;
+}
+
+/* Second Section Styles */
+
+.second-section-chir-estetica {
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 4em;
+}
+
+.first-div-second-sec {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em;
+  font-family: "Kalam", cursive;
+  padding-bottom: 1em;
+  color: #3a4048;
+}
+
+.divs-cards-second-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-div-second-sec-chir {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}
+
+.sizes-image-second-sec {
+  width: 20em;
+  height: 14em;
+}
+
+.h3-second-sec {
+  color: #a17b25;
+  font-family: "Kalam", cursive;
+  padding-top: 1em;
+}
+
+.third-div-second-sec {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #3a4048;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-top: 1.2em;
+}
+
+.paragraphs-third-div-second-sec {
+  padding-bottom: 2em;
+}
+
+.button-div-second-sec {
+  background-color: #3a4048;
+  padding: 1em 2em 1em 2em;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 0.2em;
+  color: #a17b25;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-div-second-sec:hover {
+  background-color: #a17b25;
+  color: white;
+  outline: 1px solid #3a4048;
+}
+
+/* Third Section Styles */
+
+.third-section-chir-estetica {
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 4em;
+}
+
+.first-div-third-sec {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em;
+  font-family: "Kalam", cursive;
+  padding-bottom: 1em;
+  color: #a17b25;
+}
+
+.h3-third-sec {
+  color: #3a4048;
+  font-family: "Kalam", cursive;
+  padding-top: 1em;
+}
+
+.button-div-third-sec {
+  background-color: #a17b25;
+  padding: 1em 2em 1em 2em;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 0.2em;
+  color: #3a4048;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.button-div-third-sec:hover {
+  background-color: #3a4048;
+  color: white;
+  outline: 1px solid #a17b25;
+}
+
+/* Fourth Section Styles */
+
+.fourth-section-chir-estetica {
+  background-image: url(/images-landing-pages/client-fericit.png);
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.fourth-section {
+  padding-left: 5em;
+  padding-right: 5em;
+  width: 90%;
+  padding-bottom: 5em;
+}
+
+#h5-fourth-section {
+  color: #a17b25;
+  font-family: "Kalam", cursive;
+}
+
+#h1-fourth-section {
+  color: #3a4048;
+  padding-bottom: 1em;
+}
+
+.component-fourth-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.cards-happy-clients {
+  background-color: white;
+  opacity: 0.7;
+  height: 250px;
+  width: 350px;
+  outline: 1px solid #3a4048;
+  border-radius: 0.3em;
+}
+
+.h3-fourth-sec {
+  padding-top: 1em;
+  color: #a17b25;
+  display: flex;
+  font-family: "Kalam", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+}
+
+.paragraphs-fourth-section {
+  padding: 1em;
+  color: #3a4048;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Footer Section */
+
+#container-footer-section {
+  background-image: url(/images/footer-img.png);
+  width: 100%;
+  height: 45vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.footer-section {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.a-tags-footer-sections {
+  list-style: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.images-footer-social-links {
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.styling-spans-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.span-footer-section {
+  color: #3a4048;
+}
+
+.links-footer-section-styles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding-top: 2em;
+}
+
+#hr-footer-section {
+  height: 1px;
+  background-color: #a17b25;
+  border: none;
+}
+
+.align-items-lowest {
+  width: 100%;
+}
+
+.last-section-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.last-section-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 5em 1em 5em;
+  align-items: center;
+}
+
+#first-div-last-sec-footer {
+  color: #3a4048;
+}
+
+.navbar-links-footer-section {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.styles-ul-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.li-styling-footer {
+  text-decoration: none;
+  list-style: none;
+  color: #3a4048;
+}
+
+.li-styling-footer:hover {
+  color: #a17b25;
+}
+
+.li-styling.active {
+  color: #a17b25;
+  font-weight: bold;
+}
+
+.button-footer-section {
+  padding: 0.5em;
+  border: 1px solid #a17b25;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#button-redirect-style {
+  text-decoration: none;
+  list-style: none;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 1150px) {
+  /* Fourth Section Styles */
+
+  .fourth-section-chir-estetica {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .fourth-section {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 90%;
+    padding-bottom: 5em;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* Navbar */
+
+  .div-unordered-li-navbar {
+    display: none;
+  }
+
+  .navbar-opacity-mininav-active {
+    opacity: 1;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .available-mini-navbar {
+    display: block;
+    margin-top: 2em;
+  }
+
+  .media-queries-navbar {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    right: 0;
+    top: 0;
+  }
+
+  .visible {
+    display: block;
+    opacity: 1;
+  }
+
+  .styles-media-query-navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .small-navbar-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .icon-inside-mini-navbar {
+    max-width: 80px;
+    max-height: 80px;
+    padding-left: 1em;
+  }
+
+  .closing-mini-navbar-button {
+    padding-right: 1em;
+  }
+
+  .main-div-links-mininav {
+    margin-top: 2em;
+  }
+
+  .unordered-li-mini-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .unordered-li-navbar-chir-estetica {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  #styles-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1050px) {
+  /* Fourth Section Styles */
+
+  .cards-happy-clients {
+    height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  /* First Section Styles*/
+
+  .first-section-chir-estetica {
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .left-side-first-sec {
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-side-first-sec-h1 {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+  }
+
+  .left-side-first-sec-p {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .right-side-first-sec {
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin: auto;
+  }
+
+  /* Second Section Styles */
+
+  .third-div-second-sec {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .first-div-second-sec {
+    text-align: center;
+  }
+
+  .paragraphs-third-div-second-sec {
+    text-align: center;
+  }
+
+  .button-div-second-sec {
+    width: auto;
+  }
+
+  /* Third Section Styles */
+
+  .button-div-third-sec {
+    width: auto;
+  }
+
+  /* Fourth Section */
+
+  .component-fourth-section {
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .fourth-section-chir-estetica {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fourth-section {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+  }
+
+  /* Footer Section */
+
+  #container-footer-section {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 820px) {
+  /* Fourth Section Styles */
+
+  #h5-fourth-section {
+    text-align: center;
+  }
+
+  #h1-fourth-section {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  /* First Section Styles */
+
+  .first-section-chir-estetica {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  /* Second Section Styles */
+
+  .second-section-chir-estetica {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  /* Fourth Section Styles */
+
+  .cards-happy-clients {
+    height: auto;
+  }
+
+  /* Footer Section Styles */
+
+  .styling-spans-footer-section {
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .last-section-footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
